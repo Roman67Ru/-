@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0f4bb2b131b94b3ea0a2d442c6258155" Name="Diagram1">
+        <EntityTypeShape EntityType="АтельеModel.Заказать_продукт" Width="1.5" PointX="3" PointY="2" />
+        <EntityTypeShape EntityType="АтельеModel.Заказы" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="АтельеModel.Изделия_из_ткани" Width="1.5" PointX="3" PointY="5" />
+        <EntityTypeShape EntityType="АтельеModel.Изделия_с_фурнитурой" Width="1.5" PointX="6" PointY="4.625" />
+        <EntityTypeShape EntityType="АтельеModel.Пользователи" Width="1.5" PointX="1.5" PointY="8.75" />
+        <EntityTypeShape EntityType="АтельеModel.Продукт" Width="1.5" PointX="0.75" PointY="4.625" />
+        <EntityTypeShape EntityType="АтельеModel.Склад_ткани" Width="1.5" PointX="3" PointY="13" />
+        <EntityTypeShape EntityType="АтельеModel.Склад_фурнитуры" Width="1.5" PointX="6" PointY="9.125" />
+        <EntityTypeShape EntityType="АтельеModel.Ткань" Width="1.5" PointX="0.75" PointY="11.5" />
+        <EntityTypeShape EntityType="АтельеModel.Фурнитура" Width="1.5" PointX="3.75" PointY="8.5" />
+        <AssociationConnector Association="АтельеModel.FK_Order_product_Order" />
+        <AssociationConnector Association="АтельеModel.FK_Order_product_Product" />
+        <AssociationConnector Association="АтельеModel.FK_Order_User" />
+        <AssociationConnector Association="АтельеModel.FK_Fabric_product_Fabric" />
+        <AssociationConnector Association="АтельеModel.FK_Fabric_product_Product" />
+        <AssociationConnector Association="АтельеModel.FK_Furniture_product_Furniture" />
+        <AssociationConnector Association="АтельеModel.FK_Furniture_product_Product" />
+        <AssociationConnector Association="АтельеModel.FK_Sklad_fabric_Fabric" />
+        <AssociationConnector Association="АтельеModel.FK_Sklad_furniture_Furniture" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
